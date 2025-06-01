@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.main-scoreboard {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    padding: 50px;
+    margin: 50px auto;
+}
+
+.main-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.home-score {
+    background-color: #080001;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    padding: 10px 15px;
+    color: #F94F6D;
+    font-size: 100px;
+}
+
+.add-point-btn {
+    font-family: Cursed Timer ULiL;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: inherit;
+}
